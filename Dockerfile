@@ -1,5 +1,5 @@
-FROM alpine:3.2
-MAINTAINER CenturyLink Labs <clt-labs-futuretech@centurylink.com>
+FROM alpine:3.9
+MAINTAINER Analyser <analyser@gmail.com>
 
 RUN apk --update add ruby-dev ca-certificates && \
     gem install --no-rdoc --no-ri docker-api && \
